@@ -430,15 +430,30 @@ h4 {
   position: relative;
   top: 64px;
 }
-
+.thesis {
+  transition: background-color 0.5s ease;
+}
+.thesis h4 {
+  padding: 0 1rem 1rem 1rem;
+}
 .thesis p{
   color: black;
   font-size: 1.2rem;
+  padding: 0 1rem 0 1rem;
 }
-
+.thesis img {
+  margin: 0.5rem;
+  width: 40%;
+  height: auto;
+}
 .container {
   display: flex;
   flex-direction: row;
+}
+
+video {
+  width: 100%;
+  background-color: gray;
 }
 
 .thesis:hover {
@@ -451,7 +466,6 @@ h4 {
     display: none;
   }
 }
-
 /* Footer */
 footer {
   background-color: #7c8992;
